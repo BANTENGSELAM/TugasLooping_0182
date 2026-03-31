@@ -9,7 +9,7 @@ int Pilihan;       // pilihan
 //prosedur input
 void inputAngka() {
     cout << "Masukkan angka: ";
-    cin >> angka;
+    cin >> Angka;
 }
 
 //untuk cek bi;l prima
