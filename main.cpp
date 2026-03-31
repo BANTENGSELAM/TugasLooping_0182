@@ -56,3 +56,5 @@ void outputFibonacci() {
     else
         cout << angka << " bukan bilangan FIBONACCI\n";
 }
+
+//untuk menu
