@@ -3,11 +3,11 @@
 using namespace std;
 
 //variable
-int angka;         //untuk angka
-int pilihan;       // pilihan
+int Angka;         //untuk angka
+int Pilihan;       // pilihan
 
 //prosedur input
-void inputangka() {
+void inputAngka() {
     cout << "Masukkan angka: ";
     cin >> angka;
 }
