@@ -50,3 +50,9 @@ void outputPrima() {
 }
 
 //output fibo
+void outputFibonacci() {
+    if (isFibonacci(angka))
+        cout << angka << " adalah bilangan FIBONACCI\n";
+    else
+        cout << angka << " bukan bilangan FIBONACCI\n";
+}
