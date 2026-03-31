@@ -68,3 +68,18 @@ void tampilMenu() {
 }
 
 //program utama
+int main() {
+
+    while (true) {
+        tampilMenu();
+
+        switch (pilihan) {
+            case 1:
+                inputAngka();
+                outputPrima();
+                break;
+
+            case 2:
+                inputAngka();
+                outputFibonacci();
+                break;
