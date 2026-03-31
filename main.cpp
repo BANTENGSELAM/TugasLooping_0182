@@ -7,7 +7,7 @@ int angka;         //untuk angka
 int pilihan;       // pilihan
 
 //prosedur input
-void inputAngka() {
+void inputangka() {
     cout << "Masukkan angka: ";
     cin >> angka;
 }
