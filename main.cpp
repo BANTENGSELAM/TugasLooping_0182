@@ -13,7 +13,7 @@ void inputAngka() {
 }
 
 //untuk cek bi;l prima
-bool isPrima(int n) {
+bool bPrima(int n) {
     if (n <= 1) return false;
 
     int i = 2;
@@ -27,7 +27,7 @@ bool isPrima(int n) {
 }
 
 // fibonaci
-bool isFibonacci(int n) {
+bool bFibonacci(int n) {
     int a = 0, b = 1, c;
 
     while (a <= n) {
@@ -43,7 +43,7 @@ bool isFibonacci(int n) {
 
 // output bilangn prima
 void outputPrima() {
-    if (isPrima(angka))
+    if (bPrima(angka))
         cout << angka << " adalah bilangan PRIMA\n";
     else
         cout << angka << " bukan bilangan PRIMA\n";
@@ -51,7 +51,7 @@ void outputPrima() {
 
 //output fibo
 void outputFibonacci() {
-    if (isFibonacci(angka))
+    if (bFibonacci(angka))
         cout << angka << " adalah bilangan FIBONACCI\n";
     else
         cout << angka << " bukan bilangan FIBONACCI\n";
