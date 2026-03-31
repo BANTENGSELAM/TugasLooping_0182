@@ -41,10 +41,12 @@ bool isFibonacci(int n) {
     return false;
 }
 
-// output bilangan prima
+// output bilangn prima
 void outputPrima() {
     if (isPrima(angka))
         cout << angka << " adalah bilangan PRIMA\n";
     else
         cout << angka << " bukan bilangan PRIMA\n";
 }
+
+//output fibo
