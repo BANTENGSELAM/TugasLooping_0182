@@ -83,3 +83,13 @@ int main() {
                 inputAngka();
                 outputFibonacci();
                 break;
+
+            case 0:
+                cout << "Program selesai.\n";
+                return 0;
+
+            default:
+                cout << "Pilihan tidak valid!\n";
+        }
+    }
+}
